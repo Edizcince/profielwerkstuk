@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none    ;
+}
+
+body{
+    background-color: aliceblue;
+    min-width: 600px;
+}
+#all{
+    background-color: blue;
+    width: 100vw;
+    min-width: 900px;
+    margin: 100px auto 0;
+    padding-top: 10px;
+    max-width: 1000px;
+}
+#all h1{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-bottom: 10px white double;
+    font-size: 50px;
+    padding: 10px;
+}
+#result p{
+ text-align: center;
+ font-size:50px;
+ margin: 50px;
+ color: cyan;
+}
+#txt p{
+    text-align: center;
+    font-size:30px;
+    color: white;
+}
+#buttons button{
+    font-size: 30px;
+    margin: 30px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: blue;
+    color: aliceblue;
+    margin-left: 11%;
+    width: 180px;
+}
+#buttons #quiz{
+    margin-left: 40%;
+}
+#buttons button:hover{
+    background-color: white;
+    color: black;
+}

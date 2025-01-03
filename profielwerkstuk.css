@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none    ;
+}
+
+body{
+    background-color: blue;
+    min-width: 600px;
+}
+#all{
+
+    width: 100vw;
+    height: 100vh;
+}
+#box{
+    background-color: aliceblue;
+    width: 100vw;
+    min-width: 200px;
+    margin: 100px auto 0;
+    padding-top: 10px;
+    max-width: 1000px;
+}
+#buttons button{
+    margin-top: 0px;
+    width: 100vw;
+    font-size: 15vw;
+    max-width: 1000px;
+    max-height: 200px;
+    background-color: aliceblue;
+}
+#buttons button:hover{
+    max-width: 1000px;
+    max-height: 200px;
+    background-color: lightblue;
+    border: 5px black solid;
+}
+#box h1{
+    font-size: 10vw;
+    text-align: center;
+    border-bottom: 5px black solid;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}

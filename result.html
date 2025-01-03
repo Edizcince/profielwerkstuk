@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profielwerkstuk/mainpage/quizPage/result</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <div id="all">
+        <h1>quiz geeindigt</h1>
+        <div id="result">
+            <p id="points"></p>
+            <script>
+                window.onload = function() {
+                    let score = localStorage.getItem("score");
+                    if (score) {
+                        document.getElementById("points").innerHTML = `Je hebt ${score} van de 20 goed`;
+                    } else {
+                        document.getElementById("points").innerHTML = "Er is geen score gevonden.";
+                    }
+                };
+            </script>
+            <div id="txt">
+                <p>doorgaan met:</p>
+                <div id="buttons">
+                    <button onclick="document.location.href=this.getAttribute('href');" href="opsomming.html">opsomming</button>
+                    <button id="quiz" onclick="document.location.href=this.getAttribute('href');" href="quiz.html">quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

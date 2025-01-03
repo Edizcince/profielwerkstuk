@@ -1,0 +1,43 @@
+
+body{
+    background-color: blue;
+    min-width: 600px;
+}
+#page{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px black solid;
+}
+
+.buttons{
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 30px;
+    
+}
+.buttons button{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    border-bottom: black 5px solid;
+}
+.buttons button:hover{
+    background-color: aliceblue;
+    color: black;
+}
