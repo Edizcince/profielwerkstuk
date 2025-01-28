@@ -7,21 +7,35 @@
     <link rel="stylesheet" href="quiz.css">
 </head>
 <body>
-    <div class="box">
-        <h1 id="h1">gemixte vragen</h1>
-        <div class="quiz">
-            <h2 class="question" id="question">question</h2>
-            <div class="options">
-                <button class="btt" id="btt0" onclick="checkAnswer(0)"> answer 1 </button>
-                <button class="btt" id="btt1" onclick="checkAnswer(1)"> answer 2 </button>
-                <button class="btt" id="btt2" onclick="checkAnswer(2)"> answer 3 </button>
-                <button class="btt" id="btt3" onclick="checkAnswer(3)"> answer 4 </button>
-            </div>
-            <button id="nextBtt" onclick="nextQuestion()">next</button>
-            <p class="qNums" id="qNum">1</p>
-            <p class="qNums">/ 20</p>
+    <div class="navbar">
+        <h1 id="h1">gemixte quiz</h1>
+        <div class="navbarBtt">
+            <a onclick="document.location.href=this.getAttribute('href');" href="index.html">quizes</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="opsomming.html">samenvatting</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="about.html">over de makers</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="quizMix.html">gemixte quiz</a>
         </div>
     </div>
+
+    <div id="h4Img">
+        <div class="box">
+            <h1 id="h1">gemixte vragen</h1>
+            <div class="quiz">
+                <h2 class="question" id="question">question</h2>
+                <div class="options">
+                    <button class="btt" id="btt0" onclick="checkAnswer(0)"> answer 1 </button>
+                    <button class="btt" id="btt1" onclick="checkAnswer(1)"> answer 2 </button>
+                    <button class="btt" id="btt2" onclick="checkAnswer(2)"> answer 3 </button>
+                    <button class="btt" id="btt3" onclick="checkAnswer(3)"> answer 4 </button>
+                </div>
+                <button id="nextBtt" onclick="nextQuestion()">volgende</button>
+                <p class="qNums" id="qNum">1</p>
+                <p class="qNums">/ 20</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bottomBalk"><p>gemaakt door</p></div>
     <script src="quiz.js"></script>
 </body>
 </html>

@@ -1517,8 +1517,8 @@ function checkAnswer(clickedAnswer){
     }
     questions.removeItem(randomNum)
     sleep(2000).then(() => { 
-        bttId.style.backgroundColor = "aliceblue";
-        bttId.style.color = "blue";
+        bttId.style.backgroundColor = "white";
+        bttId.style.color = "black";
         nextQuestion();
     });
 }
