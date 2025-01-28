@@ -1,5 +1,5 @@
 
-.all *{
+*{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -41,4 +41,9 @@
 }
 .bottomBalk p{
     color: rgb(236, 235, 235);
+}
+.opsomming *{
+    margin: 10px;
+    padding: 2px;
+    min-width: none;
 }

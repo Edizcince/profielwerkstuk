@@ -31,21 +31,40 @@
     text-align: center;
     color: white;
 }
-.buttons button{
-    width: 100vw;
-    font-size:x-large;
-    margin-top: 75px;
-    padding: 30px;
-    text-align: left;
-}
 .bottomBalk{
     color: white;
     background-color: #333;
     width: 100vw;
-    margin-top: 100px;
+    margin-top: 9vh;
     padding: 20px;
     text-align: center;
 }
 .bottomBalk p{
     color: rgb(236, 235, 235);
+}
+.buttons button{
+    width: 100vw;
+    font-size:x-large;
+    margin-top: 5vh;
+    padding: 30px;
+    text-align: left;
+}
+@media (hover: hover) {
+    .buttons button:hover{
+        color: white;
+        font-weight: 800;
+    }
+    #btt1:hover{
+        background-image: url("DU.jpg");
+    }
+    #btt2:hover{
+        background-image: url("NL.jpg");
+    }
+    #btt3:hover{
+        background-image: url("EN.jpg");
+    }
+    #btt4:hover{
+        background-image: url("MIX.jpg");
+    }
+    
 }
