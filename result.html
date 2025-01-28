@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="result.css">
 </head>
 <body>
+    <div class="navbar">
+        <h1 id="headerNav">resultaten</h1>
+        <div class="navbarBtt">
+            <a onclick="document.location.href=this.getAttribute('href');" href="quiz.html">quizes</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="opsomming.html">samenvatting</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="about.html">over de makers</a>
+            <a onclick="document.location.href=this.getAttribute('href');" href="quizMix.html">gemixte quiz</a>
+        </div>
+    </div>
     <div id="all">
-        <h1>quiz geeindigt</h1>
+        <h1>quiz geeindigt!</h1>
         <div id="result">
             <p id="points"></p>
             <script>
@@ -21,15 +30,9 @@
                     }
                 };
             </script>
-            <div id="txt">
-                <p>doorgaan met:</p>
-                <div id="buttons">
-                    <button onclick="document.location.href=this.getAttribute('href');" href="opsomming.html">opsomming</button>
-                    <button id="quiz" onclick="document.location.href=this.getAttribute('href');" href="quiz.html">quiz</button>
-                </div>
-            </div>
         </div>
     </div>
+    <div class="bottomBalk"><p>gemaakt door</p></div>
     <script src="quiz.js"></script>
 </body>
 </html>
