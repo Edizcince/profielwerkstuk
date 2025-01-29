@@ -86,14 +86,14 @@
 #qNum{
     margin-left: 75%;
 }
-@media (hover: hover) {
+@media (hover: hover), (-ms-high-contrast:none) {
     .options button:hover {
-        background-color: grey;
-        color: white;
+        background-color: grey !important;
+        color: white !important;
    }
    #nextBtt:hover{
-        background-color: grey;
-        color: white;
+        background-color: grey !important;
+        color: white !important;
    }
 }
 
