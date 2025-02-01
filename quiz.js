@@ -9,7 +9,7 @@ if (Header1.innerHTML == "Duitsland in Europa (1918–1991)"){
                 { text: "De aanval op Polen", correct: false },
                 { text: "De annexatie van Oostenrijk", correct: true },
                 { text: "De inval in Frankrijk", correct: false },
-                { text: "De aanval op Tsjecho-Slowakije", correct: false }
+                { text: "De overname van Tsjecho-Slowakije", correct: false }
             ]
         },
         {
@@ -88,9 +88,9 @@ if (Header1.innerHTML == "Duitsland in Europa (1918–1991)"){
             question: "Wanneer werden de BRD en DDR opgericht?",
             answers: [
                 { text: "1945 en 1946", correct: false },
-                { text: "1949 en 1950", correct: false },
                 { text: "1948 en 1949", correct: false },
-                { text: "1949", correct: true }
+                { text: "1946 en 1948", correct: false },
+                { text: "beide in 1949", correct: true }
             ]
         },
         {
@@ -387,11 +387,11 @@ else if(Header1.innerHTML == "Nederland (1928-2008)"){
             ]
         },
         {
-            question: "Wat was een belangrijk kenmerk van de punkbeweging in Nederland?",
+            question: "Wat was een belangrijk kenmerk van de Hippies in Nederland?",
             answers: [
                 { text: "Hun haat tegen communistische politieke partijen", correct: false },
-                { text: "Hun vreedzame protesten tegen woningnood", correct: false },
-                { text: "Hun harde muziek en protest tegen gezag", correct: true },
+                { text: "Hun harde muziek en protest tegen gezag", correct: false },
+                { text: "Hun lang naar vrede, met ideeën tegen de consumptiemaatschappij", correct: true },
                 { text: "Hun strikte naleving van traditionele normen en waarden", correct: false }
             ]
         },
@@ -452,7 +452,7 @@ else if(Header1.innerHTML == "Nederland (1928-2008)"){
         {
             question: "Waarom werd Nederland internationaal gezien als tolerant na 2000?",
             answers: [
-                { text: "Door de invoering van wetten zoals het homohuwelijk en de euthanasiewet", correct: true },
+                { text: "Door de invoering van wetten zoals het homohuwelijk", correct: true },
                 { text: "Door het afschaffen van het verdrag van Schengen", correct: false },
                 { text: "Door zijn rol als leider in het Europese milieubeleid", correct: false },
                 { text: "Door een verbod op discriminatie in alle publieke sectoren", correct: false }
@@ -493,7 +493,7 @@ else if( Header1.innerHTML == "Het Britse rijk (1585-1900)"){
         {
             question: "Wat was het belangrijkste gevolg voor de inheemse bevolking van de kolonisatie van Amerika?",
             answers: [
-                { text: "Ze stierf massaal door Europese ziektes", correct: true },
+                { text: "Ze stierven massaal door Europese ziektes", correct: true },
                 { text: "Ze kregen meer rechten", correct: false },
                 { text: "Ze profiteerden van de handel met de kolonisten", correct: false },
                 { text: "Ze werden geassimileerd in de Engelse cultuur", correct: false }
@@ -509,7 +509,7 @@ else if( Header1.innerHTML == "Het Britse rijk (1585-1900)"){
             ]
         },
         {
-            question: "Wat werd de belangrijkste teelt op de suikerplantages van het Caribisch gebied?",
+            question: "Wat werd de belangrijkste teelt op de plantages van het Caribisch gebied?",
             answers: [
                 { text: "Katoen", correct: false },
                 { text: "Suiker", correct: true },
@@ -590,12 +590,12 @@ else if( Header1.innerHTML == "Het Britse rijk (1585-1900)"){
             ]
         },
         {
-            question: "In welk jaar werd slavernij verboden in het Britse rijk?",
+            question: "In welk jaar wonnen de Amerikanen de Oorlog tegen de Britten?",
             answers: [
-                { text: "1776", correct: false },
-                { text: "1807", correct: false },
-                { text: "1833", correct: true },
-                { text: "1865", correct: false }
+                { text: "1775", correct: false },
+                { text: "1801", correct: false },
+                { text: "1783", correct: true },
+                { text: "1794", correct: false }
             ]
         },
         {
@@ -698,12 +698,12 @@ else if( Header1.innerHTML == "Het Britse rijk (1585-1900)"){
             ]
         },
         {
-            question: "Hoeveel mensen woonden er in Groot-Brittannië in 1900?",
+            question: "Waar zorgde de hoge Britse populatie groei voor?",
             answers: [
-                { text: "10 miljoen", correct: false },
-                { text: "30 miljoen", correct: true },
-                { text: "6 miljoen", correct: false },
-                { text: "30 miljoen", correct: true }
+                { text: "voor racisme onder de bevolking", correct: false },
+                { text: "voor een slechte economie", correct: true },
+                { text: "voor meer slaven", correct: false },
+                { text: "voor goedkopere arbeid", correct: true }
             ]
         },
         {
