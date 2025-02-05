@@ -42,10 +42,10 @@ if (Header1.innerHTML == "Duitsland in Europa (1918–1991)"){
         {
             question: "Wat hield de dolkstootlegende in?",
             answers: [
-                { text: "Dat Duitsland verraden werd door communisten", correct: false },
+                { text: "Dat Duitsland verraden werd door de Sovjet-Unie", correct: false },
                 { text: "Dat Duitsland verraden werd door democratische leiders", correct: true },
                 { text: "Dat Duitsland economisch kapot werd gemaakt door de geallieerden", correct: false },
-                { text: "Dat Duitsland verraden werd door joden", correct: false }
+                { text: " Dat Duitsland economisch kapot werd gemaakt door de joden", correct: false }
             ]
         },
         {
