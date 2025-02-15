@@ -186,7 +186,7 @@ if (Header1.innerHTML == "Duitsland in Europa (1918–1991)"){
         }    
     ]
 }
-else if(Header1.innerHTML == "Nederland (1928-2008)"){
+else if(Header1.innerHTML == "Nederland (1948-2008)"){
     questions = [
         {
             question: "Welke vier zuilen waren er in Nederland voor de Tweede Wereldoorlog?",
