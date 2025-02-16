@@ -75,3 +75,95 @@
     min-width: 200px;
     margin: 5px;
 }
+@media (width <= 600px){
+    * {
+        min-width: none;
+    }
+    #troy{
+        border: 1px black solid;
+        min-width: 100px;
+        padding: 5px;
+    }
+    #ediz{
+        border: 1px black solid;
+        min-width: 100px;
+        padding: 5px;
+    }
+    .text{
+        min-width: 100px;
+        margin: 5px;
+    }
+    .header2{
+        min-width: 100x;
+        margin: 2px;
+    }
+}
+@media (600px < width <= 768px ){
+    * {
+        min-width: none;
+    }
+    #troy{
+        border: 1px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    #ediz{
+        border: 1px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    .text{
+        min-width: 200px;
+        margin: 5px;
+    }
+    .header2{
+        min-width: 200x;
+        margin: 2px;
+    }
+}
+@media (768px < width <= 992px){
+    * {
+        min-width: none;
+    }
+    #troy{
+        border: 2px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    #ediz{
+        border: 2px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    .text{
+        min-width: 200px;
+        margin: 5px;
+    }
+    .header2{
+        min-width: 200x;
+        margin: 2px;
+    }
+}
+@media (992px < width <= 1200px){
+    * {
+        min-width: none;
+    }
+    #troy{
+        border: 3px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    #ediz{
+        border: 3px black solid;
+        min-width: 200px;
+        padding: 5px;
+    }
+    .text{
+        min-width: 200px;
+        margin: 5px;
+    }
+    .header2{
+        min-width: 200x;
+        margin: 2px;
+    }
+}
