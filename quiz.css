@@ -45,7 +45,6 @@
 .quiz{
     margin: 50px auto 50px auto;
     max-width: 1000px;
-
     padding: 30px;
     background-color: #333;
 }
@@ -64,6 +63,7 @@
     padding: 10px;
     background-color: white;
     color: black;
+    text-align: left;
 }
 #nextBtt{
     min-width: 50px;
@@ -112,4 +112,19 @@
 #h4Img{
     padding: 5vh;
     background-image: url("MIX.jpg");
+}
+@media (width <= 600px){
+    .question{
+        font-size:large;
+    }
+}
+@media (600px < width <= 768px ){
+    .question{
+        font-size:large;
+    }
+}
+@media (768px < width <= 992px){
+    .question{
+        font-size:x-large;
+    }
 }
